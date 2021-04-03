@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(30, 30, 31, 0.562);
+}
+
+body {
+    color: red;
+}
+
+li, a, button {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 33px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 22px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(30, 30, 31, 0.562);
+    color: white;
+    font-size: 44px;
+}
+
+h1 {
+    font-size: 88px;
+    border-radius: 20px;
+    background-color:rgba(49, 49, 51, 0.562);
+    font-weight: 10000;
+    border-bottom: solid 7px white;
+    border-top: solid 7px white;
+    margin:37px 95px 35px 12px;
+}
+
+.logo {
+    cursor: pointer;
+    border-radius: 33px;
+}
+
+#navbar {
+    list-style: none;
+    border-radius: 17px;
+    background-color: rgba(30, 30, 31, 0.562);
+    padding: 20px 20px 20px 20px;
+    float: right;
+}
+#navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+
+#navbar  a {
+    transition: all 0.3s ease 0s;
+}
+
+#navbar a:hover {
+    color: rgb(24, 138, 43);
+}
+
+h2 {
+    padding: 29px;
+    margin: 0px;
+    font-size: 46px;
+    background-color: rgba(48, 48, 51, 0.562);
+    color: white;
+    border-radius: 12px;
+
+}
+
+.pw {
+    color: white;
+    padding: 35px;
+    width: 50%;
+    border: solid 5px rgba(255, 255, 255, 0.562);
+    font-size: 22px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.vikinpic2 {
+    width: 50%;
+    float: right;
+    padding-right: 0px;
+    height: 483px;
+    border: solid white;
+}
+.nav-ico {
+    margin: 2px 1px 9px 308px;
+    padding: 20px 2px 222px 2px;
+    font-size: 90px;
+    background-color: transparent;
+}
+
+.caltxt1 {
+    font-size: 32px;
+    margin: 2px 2px 2px 5px;
+}
+
+.nav-ico2 {
+    margin: 2px 2px 2px -32%;
+    font-size: 90px;
+    background-color: transparent;
+}
+
+.caltxt2 {
+    font-size: 32px;
+    padding-left: 26%;;
+    padding-top: 33px;
+}
+
+.nav-ico3 {
+    margin: 10px 30px 10px 17%;
+    font-size: 90px;
+    border-radius: 22px;
+    background-color: transparent;
+}
+
+.member {
+    margin: 2px 2px 2px 0px;
+    background-color: transparent;
+    padding-left: 78px;
+}
+
+.nav-secondary {
+    margin: 0px 30px 0px 0px;
+    border-left: solid 5px white;
+    border-right: solid 5px white;
+    background-color: transparent;
+}
+
+.vikipic2 {
+    height: 188px;
+    width: 50%;
+    border: solid 5px white;
+}
+.vikp2 {
+    width: 50%;
+    margin: -130px 0px 2px 2px;
+    padding-top: 2.5px;
+    text-align: center;
+    font-size: 21px;
+    border: solid 5px white;
+    border-top: none;
+    font-weight: 100px;
+    font-family: 'Noto Sans JP', sans-serif;
+    float: right;
+}
+
+.pf2 {
+    text-align: center;  
+    font-size: 47px;
+    color: white;
+    font-weight: 200;
+}
+
+.bbh3 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.bbh4 {
+    color: white;
+    width: 50%;
+    text-align: center;
+    background-color: transparent;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.bbh5 {
+    color: white;
+    width: 50%;
+    text-align: center;
+    background-color: transparent;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.iframep1 {
+    width: 850px;
+    height: 401px;
+    padding-left: 115px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+
+#iframediv {
+    border-radius: 44px;
+    background-color:rgba(24, 138, 43, 0.397);
+    margin-left: 50px;
+}
+.dahouse2 {
+    width: 49%;
+    height: 400px;
+    float: right;
+    border-radius: 40px;
+    border:rgba(30, 30, 31, 0.562) 7px solid;
+}
+.scip2 {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 200px;
+    font-size: 60px;
+    padding: 49px 20px 60px 420px;
+    bottom: 0;
+    background-color: transparent;
+}
+.facebook a {
+    background-color: transparent;
+}
+.facebook {
+    background-color: transparent;
+}
+.instagram {
+    background-color: transparent;
+}
+.instagram a {
+    background-color: transparent;
+}
+.twitter {
+    background-color: transparent;
+}
+.twitter a {
+    background-color: transparent;
+}
+
+.envelope {
+    background-color: transparent;
+}
+.envelope a {
+    background-color: transparent;
+}
+.bbbp2 {
+    border-bottom: solid 5px white;
+    border-left: solid 5px white;
+}
+.footerp2 {
+    background-color:rgba(236, 236, 236, 0.562);
+}
+@media screen and (max-width:1639px) and (min-width:768px){
+    body {
+        color: blue;
+    }
+ 
+    h1 {
+     font-size: 75px;
+     padding-left: 2;
+     text-align: center;
+     display: inline-flex;
+     margin: 20px 0px 0px 444px;
+     border-top: none;
+    }
+    .bibooh {
+        text-align: center;
+        margin-left: 325px;
+        width: 50%;
+        border: none;
+    }
+    .logo {
+     margin-right: 222px;
+     margin-bottom: 222px;
+    }
+    .iframep1 {
+        width: 600px;
+        margin: 0px 0px 0px 90px;
+    }
+    .dahouse {
+        width: 38%;
+        padding: 0;
+        padding-right: 25px;
+    }
+    #navbar {
+        margin: -340px 0px 0px 300px;
+        float: left;
+        position: absolute;
+    }
+     }
+     .h2p1 {
+         margin-left: 40px;
+     }
+     .phone-map {
+         padding-right: 204px;
+         display: inline-block;
+         margin-right: 50px;
+     }
+     .sci {
+         display: flex;
+         list-style: none;
+         letter-spacing: 200px;
+         font-size: 60px;
+         padding: 49px 200px 40px 120px;
+         bottom: 0;
+         
+     }
+     .caltxt2 {
+         width: 48%;
+         float: left;
+     }
+ 
+     
+     @media screen and (max-width:999px) and (min-width:531px){
+         .bibooh {
+             width: 48%;
+             margin-left: 132px;
+         }
+         .dahouse {
+             width: 48%;
+         }
+         .button {
+             width: 400px;
+             margin: 50px;
+             padding-bottom: 120px;
+             margin-bottom: 100px;
+             border-bottom: none;
+             background-color: rgba(9, 48, 99, 0.911);
+         }
+         .button a {
+             padding-bottom: 5px;
+             padding-top: 40px;
+             background-color:rgba(6, 45, 95, 0.527)
+         }
+         #navbar {
+             margin: 0px 0px 0px 10px;
+             float: left;
+             position: absolute;
+             width: 100%;
+         }
+ 
+         h1 {
+             border-top: none;
+         }
+         .bibooh {
+             border: solid 7px white;
+         }
+     }
+     @media screen and (max-width:530px) and (min-width:400px){
+         .bibooh {
+             width: 44%;
+             margin-left: 44px;
+         }
+         .button {
+             width: 300px;
+         }
+
+         .scip3 {
+             position: absolute;
+         }
+ 
+ 
+         h1 {
+             margin-left: 10px;
+             border-top: none;
+         }
+         .logo {
+             margin-left: -20px;
+         }
+         .iframep3 {
+             width: 400px;
+         }
+         .email-map {
+             margin-left: -68px;
+             font-size: 24px;
+         }
+         .phone-map {
+             margin-left: 36px;
+             font-size: 24px;
+         }
+         .navbar {
+             width: 100%;
+             margin-bottom: 0px;
+             position: absolute;
+             display: inline-block;
+         }
+     }
+ 
+ 
+ 

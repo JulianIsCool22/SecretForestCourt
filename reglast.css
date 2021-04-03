@@ -1,0 +1,136 @@
+body {
+    color: red;
+    background-color: grey;
+}
+
+h2 {
+    color: white;
+    font-weight: 900px;
+    font-size: 69px;
+    background-color: rgba(48, 48, 51, 0.562);
+    padding: 0px 3px 3px 3px;
+    margin: 10px 22px 13px -54px;
+    border-radius: 22px;
+    border-top: solid 7px white;
+    border-bottom: solid 7px white;
+    background-color: transparent;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(30, 30, 31, 0.562);
+}
+
+.logo {
+    cursor: pointer;
+    float: right;;
+    border-radius: 33px;
+}
+
+#navbar {
+    list-style: none;
+    border-radius: 17px;
+    color: transparent;
+    background-color: rgba(30, 30, 31, 0.562);
+    padding: 10px 10px 10px 10px;
+    margin-left: 90px;
+    overflow: hidden;
+    display: flex;
+}
+#navbar a {
+    display: flex;
+    font-size: 37px;
+    padding: 0px 7px 0px 0px;
+    border-radius: 20px;
+    float: right;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a {
+    transition: all 0.3s ease 0s;
+}
+
+#navbar a:hover {
+    color:rgb(24, 138, 43);
+}
+.housej {
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 500px;
+}
+.dahouse2 {
+    width: 45%;
+    height: 500px;
+}
+.iframep1 {
+    width: 750px;
+    height: 501px;
+    padding-left: 65px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+
+#iframediv {
+    border-radius: 44px;
+    background-color:rgba(24, 138, 43, 0.397);
+    margin-left: 50px;
+}
+
+.button {
+    margin-left: 140px;
+    background-color:rgb(0, 255, 64);
+    border: solid 17px white;
+    border-radius: 44px;
+    margin-top: 20px;
+
+
+}
+.button a{
+    padding: 80px;
+    font-size: 85px;
+    color:rgb(7, 43, 90);
+}
+
+.buttondiv {
+    background-color: transparent;
+}
+.bbh3 {
+    text-align: center;
+    color: white;
+    font-size: 51px;
+    padding-bottom: 19px;
+    border-top: solid 7px white;
+    border-bottom: solid 7px white;
+    padding-top: 7px;
+}
+.bbh4 {
+    text-align: center;
+    color: white;
+    font-size: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    letter-spacing: 3px;
+}
+
+.bbh5 {
+    text-align: center;
+    color: white;
+    font-size: 41px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+    background-color: transparent;
+}
