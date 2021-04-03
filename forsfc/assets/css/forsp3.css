@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(30, 30, 31, 0.562);
+}
+
+body {
+    color: red;
+}
+
+li, a, button {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 33px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 22px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(30, 30, 31, 0.562);
+    color: white;
+    font-size: 44px;
+}
+
+h1 {
+    font-size: 88px;
+    border-radius: 20px;
+    background-color:rgba(49, 49, 51, 0.562);
+    font-weight: 10000;
+    border-bottom: solid 7px white;
+    border-top: solid 7px white;
+    margin: 17px 95px 10px 10px;
+}
+
+.logo {
+    cursor: pointer;
+    border-radius: 33px;
+}
+
+.navbar {
+    list-style: none;
+    border-radius: 17px;
+    background-color: rgba(30, 30, 31, 0.562);
+    padding: 20px 20px 20px 20px;
+    float: right;
+}
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    color: rgb(24, 138, 43);
+}
+
+h2 {
+    padding: 29px;
+    margin: 0px;
+    font-size: 44px;
+    background-color: rgba(48, 48, 51, 0.562);
+    color: white;
+    border-radius: 12px;
+
+}
+
+.contactlist {
+    color: white;
+    width: 50%;
+    border: solid 5px rgba(255, 255, 255, 0.562);
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
+    font-weight: 1000px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.conlistit {
+    font-size: 28px;
+}
+
+.member {
+    margin: 2px 2px 2px 0px;
+}
+
+.nav-secondary {
+    margin: 0px 30px 0px 0px;
+    border-left: solid 5px white;
+    border-right: solid 5px white;
+}
+
+
+
+.blueprintpic {
+    width: 50%;
+    height: 591px;
+    float: right;
+    border: solid 5px rgba(30, 30, 31, 0.562);
+}
+ 
+.footerp3 {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    position: absolute;
+}
+.iconsp3 {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 200px;
+    font-size: 60px;
+    padding: 13px 420px 40px 600px;
+}
+.facebook {
+    background-color: transparent;
+    text-align: center;
+    color:rgb(125, 123, 160);
+}
+.instagram {
+    background-color: transparent;
+    color:rgb(45, 121, 55);
+}
+.twitter {
+    background-color: transparent;
+    color: rgb(88, 88, 88);
+}
+.envelope {
+    background-color: transparent;
+    color: rgb(88, 88, 88);
+}
+@media (max-width: 800px) {
+    body {
+        color: blue;
+        font-size: 27px;
+        padding: 3px;
+        text-align: center;
+        
+    }
+
+    h1 {
+        margin: -30px 270px 10px 5px;
+        font-size: 45px;
+        float: left;
+        position: absolute;
+    }
+    .footerp3 {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .blueprintpic {
+        float: right;
+        display: flex;
+        width: 100%;
+    }
+    
+    .navbar {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+    .contactlist {
+        width: 100%;
+        overflow: hidden;
+    }
+    .iconsp3 {
+        display: flex;
+        list-style-type: none;
+        letter-spacing: 20px;
+        font-size: 60px;
+        padding: 30px 220px 40px 220px;
+    }
+}
+@media (max-width: 600px) {
+
+    .blueprintpic {
+        float: right;
+        display: flex;
+        width: 100%;
+    }
+    .navbar {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+
+    h1 {
+        margin: -100px 210px 10px 5px;
+        font-size: 35px;
+        border-top: 17px;
+        border-bottom: 17px;
+    }
+    .contactlist {
+        margin: 2px;
+        text-align: center;
+        padding: 2px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .footerp3 {
+        margin: 0px; 0px 0px 0px;
+        width: 100%;
+        position: absolute;
+    }
+    .iconsp3 {
+        display: flex;
+        list-style-type: none;
+        letter-spacing: 20px;
+        font-size: 60px;
+        padding: 30px 220px 40px 220px;
+    }
+}
+@media (max-width: 430px) {
+    .blueprintpic {
+        float: right;
+        display: flex;
+        width: 100%;
+    }
+    .navbar {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+
+    h1 {
+        margin: -20px 210px 10px 5px;
+        font-size: 35px;
+        border-top: 17px;
+        border-bottom: 17px;
+    }
+    .contactlist {
+        margin: 2px;
+        text-align: center;
+        padding: 2px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .footerp3 {
+        margin: 0px; 0px 0px 0px;
+        width: 100%;
+        position: absolute;
+    }
+    .iconsp3 {
+        display: flex;
+        list-style-type: none;
+        letter-spacing: 20px;
+        font-size: 60px;
+        padding: 30px 220px 40px 220px;
+    }
+}
